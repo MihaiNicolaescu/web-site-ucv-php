@@ -1,0 +1,223 @@
+body{
+    background-image: url("universitatea.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body li{
+    list-style-type:none;
+}
+.nav-bar{
+    background: lightskyblue;
+    height: 50px;
+    width: 1090px;
+    margin-left: 400px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content table{
+    margin: 0 auto;
+}
+
+.nav-bar a {
+    float: right;
+    margin-top: -50px;
+    font-size:25px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav-bar p{
+    padding-top:5px;
+    font-size: 25px;
+}
+
+.nav-bar a:hover {
+    color:white;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#leftSide{
+    float: left;
+    margin-left:400px;
+    margin-right: 50px;
+    background: lightskyblue;
+
+}
+
+.conectare input{
+    display: block;
+    font-size: 20px;
+    width: 220px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    outline: 0;
+    border-width: 0 0 2px;
+}
+
+.conectare button{
+    margin-left:29%;
+    font-size: 20px;
+}
+
+.conectare input:focus {
+    border-color: #2c3e50;
+}
+.panou-administrare{
+    margin-top:200px;
+    background: lightskyblue;
+    height: 200px;
+}
+.panou-administrare button{
+    margin-top:20px;
+    margin-left:18%;
+    font-size: 20px;
+}
+
+
+
+.conectare{
+    margin-top:200px;
+    background: lightskyblue;
+    height: 200px;
+}
+
+.meniu-linkuri{
+
+    float:left;
+    background: lightskyblue;
+}
+
+#right-side{
+    float:left;
+    width:800px;
+    background-color: lightskyblue;
+}
+
+
+#leftSide li a{
+    text-decoration: none;
+    margin-left: -35px;
+    font-size:30px;
+    color: black;
+}
+
+
+#leftSide ul{
+    width: 200px;
+}
+
+#leftSide a:hover{
+    color:white;
+}
+
+#leftSide li{
+    list-style-type:none;
+}
+.table-ed td{
+    border:1px solid;
+}
+.table-ed th{
+    border:1px solid;
+}
+.table-ed{
+    border:1px solid;
+}
+
+.container-adaugare{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding-left:40%;
+    padding-top:10%;
+}
+
+.container-adaugare input, select, label{
+    font-size: 30px;
+    margin-bottom:5px;
+}
+
+.container-adaugare label{
+    color: white;
+}
+
+.adaugare-overlay{
+    background-color: #2c3e50;
+    width: 400px;
+    height: 450px;
+    padding-left:40px;
+    padding-top:20px;
+}
+
+#overlay-buttons{
+    width: 100px;
+    height: 50px;
+    display: flex;
+
+}
+.container-edit{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left:40%;
+    padding-top:10%;
+}
+
+.container-edit input, select, label{
+    font-size: 25px;
+    margin-bottom:5px;
+}
+
+.container-edit-anunt{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left:40%;
+    padding-top:10%;
+}
+
+.container-edit input{
+    width: 370px;
+}
+
+.container-edit label{
+    color: white;
+}
+
+.anunt{
+    text-align: left;
+    padding-top: 0px;
+}
+
+.anunt p{
+    margin-top: -3px;
+    padding-left:10px;
+}
+
+#bar-tags a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+#bar-tags a:hover{
+    color:white;
+}

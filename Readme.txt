@@ -1,0 +1,1 @@
+Inregistrarea unui administrator se poate realiza accesand pagina admin.php.
